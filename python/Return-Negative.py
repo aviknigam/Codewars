@@ -16,3 +16,7 @@ def make_negative( number ):
         return number
     else:
         return number   
+
+# OTHER SOLUTION
+def make_negative( number ):
+    return -abs(number)
